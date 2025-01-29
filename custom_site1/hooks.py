@@ -9,6 +9,21 @@ app_license = "mit"
 # Includes in <head>
 # ------------------
 
+fixtures = [
+     {
+        "doctype": "Custom Field",
+        "filters": [["module", "=", "custom-site1"]],
+        "doctype": "Property Setter",
+        "filters": [["module", "=", "custom-site1"]],
+        
+        
+    }]
+
+app_include = [
+    "custom_site1.api.get_customer_details",
+    "custom_site1.api.salesinvoice"
+]
+
 # include js, css files in header of desk.html
 # app_include_css = "/assets/custom_site1/css/custom_site1.css"
 # app_include_js = "/assets/custom_site1/js/custom_site1.js"
