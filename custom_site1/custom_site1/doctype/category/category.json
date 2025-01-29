@@ -6,7 +6,8 @@
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-  "name1"
+  "name1",
+  "data"
  ],
  "fields": [
   {
@@ -16,11 +17,16 @@
    "label": "Name",
    "reqd": 1,
    "unique": 1
+  },
+  {
+   "fieldname": "data",
+   "fieldtype": "Data",
+   "label": "data"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-01-29 15:36:01.495717",
+ "modified": "2025-01-29 16:57:43.860668",
  "modified_by": "Administrator",
  "module": "custom-site1",
  "name": "Category",
